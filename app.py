@@ -33,7 +33,7 @@ def create_obj():
     outputAudioName = 'outputAudio' + randomNumber + '.mp3'
     # AWS info
     awsClientConfig = Config(region_name = 'us-east-1')
-    bucket_name = '704205-test-transcribe'
+    bucket_name = 'cloudproject-translator-bucket'
     # Data from process
     transcribedText = ''
     translatedText = ''
